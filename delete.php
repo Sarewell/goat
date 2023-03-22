@@ -4,7 +4,7 @@
 session_start();
 //connexion avec PDO
 
-include("models\models.php");
+include("models/models.php");
 
 delete("goat");
 
