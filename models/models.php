@@ -86,7 +86,7 @@ function delete($table)
     $query->execute();
     $_SESSION["success"] ="L'élément a bien été supprimé avec succés!!";
     //redirect
-    header('location: index.php');
+    header('location: liste-goat.php');
 
 
 }
