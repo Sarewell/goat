@@ -6,7 +6,7 @@ include('partials/_header.php')
 ?>
 <main>
     <?php
-include_once('helpers\function.php');
+include_once('helpers/function.php');
 // validation du formulaire
 // 1-creation de mes variables
 $error = [];
